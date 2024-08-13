@@ -21,7 +21,7 @@ describe("My Description", () => {
             var Vegname=$e1.find('h4.product-name').text()       
             if(Vegname.includes('Cashews'))
             {
-                cy.wrap($e1).find('button').click();
+                cy.wrap($e1).find('button').click()
             }
         })
 
