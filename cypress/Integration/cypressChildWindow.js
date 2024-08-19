@@ -1,5 +1,5 @@
 /// <reference types = 'Cypress' />
-
+/// <reference types = 'Cypress-iFrame'/>
 describe('Handling child window', () =>
 {
     it('should handle child window', () =>
